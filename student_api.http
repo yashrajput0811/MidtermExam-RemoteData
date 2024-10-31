@@ -1,0 +1,37 @@
+
+### Base URL
+@baseUrl = http://localhost:5000
+
+### Get all students
+GET {{baseUrl}}/students
+###
+
+### Get a student by ID
+GET {{baseUrl}}/students/1
+###
+
+### Add a new student
+POST {{baseUrl}}/students
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "grade": "A",
+  "email": "johndoe@example.com"
+}
+###
+
+### Update an existing student by ID
+PUT {{baseUrl}}/students/1
+Content-Type: application/json
+
+{
+  "name": "Jane Doe",
+  "grade": "B+",
+  "email": "janedoe@example.com"
+}
+###
+
+### Delete a student by ID
+DELETE {{baseUrl}}/students/1
+###
