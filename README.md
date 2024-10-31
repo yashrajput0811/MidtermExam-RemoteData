@@ -6,7 +6,7 @@ This project provides a simple RESTful API to manage students with basic CRUD op
 ## Project Setup
 1. **Clone Repository**:
    ```bash
-   git clone https://github.com/yourusername/your-repository.git
+   git clone https://github.com/yashrajput0811/MidtermExam-RemoteData.git
    cd your-repository
    ```
 
